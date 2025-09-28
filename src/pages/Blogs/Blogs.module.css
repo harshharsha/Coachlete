@@ -1,0 +1,114 @@
+.BlogsWrapper {
+  margin: 96px 0;
+  padding: 0vh 7vh;
+}
+
+.BlogsHead {
+  font-size: 80px;
+  font-weight: bold;
+}
+
+.BlogImageCardsWrapper {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  padding: 5vh 2vh;
+  gap: 5vh;
+}
+
+.BlogImageCard1 {
+  width: 100%;
+  height: 100%;
+  /* background-color: aqua; */
+}
+
+.BlogImage1 {
+  height: 300px;
+  width: 100%;
+  overflow: hidden;
+  position: relative;
+}
+
+.BlogImage1 img {
+  height: 100%;
+  width: 100%;
+  display: block;
+  object-fit: cover;
+  transform-origin: center;
+}
+
+.BlogImage1HeadWrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 2vh;
+  position: relative;
+}
+
+.BlogImage1Head {
+  font-size: 24px;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  overflow: hidden;
+}
+
+#Arrow {
+  width: 2vw;
+}
+
+.BlogImage1Arrow {
+  position: relative;
+  display: flex;
+  padding: 4px;
+}
+
+.ArrowBorder {
+  position: absolute;
+  inset: 0;
+  border: 1px solid black;
+  transform-origin: center center;
+  pointer-events: none;
+  z-index: 0;
+  border-radius: 50px;
+  display: flex;
+}
+
+.underline {
+  height: 1px;
+  width: 100%;
+  background-color: black;
+  transform-origin: left center;
+  position: absolute;
+  bottom: -10px;
+  /* margin-top: 5vh; */
+}
+
+@media screen and (max-width: 600px) {
+  .BlogImageCardsWrapper {
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+  }
+
+  .BlogImageCardsWrapper {
+    padding: 5vh 0vh;
+  }
+
+  #Arrow {
+    width: 8vw;
+  }
+
+  .BlogImage1Head {
+    font-size: 18px;
+  }
+
+  .BlogsHead {
+    font-size: 35px;
+  }
+}
+
+@media screen and (min-width: 601px) and (max-width: 1294px) {
+  /* .BlogsWrapper{
+    padding: ;
+  } */
+}

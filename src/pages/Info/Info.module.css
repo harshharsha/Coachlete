@@ -4,7 +4,8 @@
 }
 
 .InfoWrapper {
-  padding: 3vh 2vh;
+  margin: 96px 0;
+  padding: 0vh 2vh;
   display: flex;
   align-items: center;
   justify-content: space-around;
