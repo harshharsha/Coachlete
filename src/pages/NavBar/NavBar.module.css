@@ -10,7 +10,7 @@
   align-items: center;
   justify-content: space-between;
   width: 100%;
-  padding: 5vh;
+  padding: 2vh;
   height: 9.5vh;
   transition: all 0.3s ease-in-out;
   /* z-index: 1; */
@@ -31,6 +31,7 @@
 
 .NavBarLogo {
   color: white;
+  padding: 0vh 5vh;
 }
 
 .NavBarLinks ul {
@@ -41,6 +42,7 @@
   font-size: 14px;
   font-weight: bold;
   color: white;
+  padding: 0vh 5vh;
 }
 
 .menuIcon {
@@ -92,8 +94,12 @@
     display: none;
   }
 
+  .NavBarLogo {
+    padding-left: 0vh;
+  }
+
   .NavBarWrapper {
-    padding: 4vh;
+    padding: 4vh 5vh;
   }
 
   .mobileMenu {
