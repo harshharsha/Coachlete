@@ -6,6 +6,8 @@ import DotMenu from "@/pages/DotMenu/DotMenu";
 import NavBar from "@/pages/NavBar/NavBar";
 import { useState } from "react";
 import Blogs from "@/pages/Blogs/Blogs";
+import Testimonials from "@/pages/Testimonials/Testimonials";
+import Footer from "@/pages/Footer/Footer";
 
 export default function Home() {
   const [openDot, setOpenDot] = useState(false);
@@ -17,6 +19,8 @@ export default function Home() {
       <Homesection />
       <Info />
       <Blogs />
+      <Testimonials />
+      <Footer />
     </main>
   );
 }
