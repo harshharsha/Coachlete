@@ -17,3 +17,7 @@ body {
     color-scheme: dark;
   }
 }
+
+.mySwiper .swiper-wrapper {
+  padding-bottom: 10vh !important;
+}
