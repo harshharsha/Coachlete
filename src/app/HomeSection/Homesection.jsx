@@ -1,7 +1,5 @@
 import React from "react";
-import NavBar from "../NavBar/NavBar";
 import styles from "./Homesection.module.css";
-import Info from "../Info/Info";
 
 export default function Homesection() {
   return (

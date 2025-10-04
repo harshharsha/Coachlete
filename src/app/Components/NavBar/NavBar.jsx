@@ -3,6 +3,7 @@
 import React, { useState } from "react";
 import styles from "./NavBar.module.css";
 import { motion, FramerMotion, AnimatePresence } from "framer-motion";
+import Link from "next/link";
 
 export default function NavBar({ setOpenDot, openDot }) {
   function handleDotMenu() {
@@ -24,9 +25,15 @@ export default function NavBar({ setOpenDot, openDot }) {
           </div>
           <div className={styles.NavBarLinks}>
             <ul>
-              <li>HOME</li>
-              <li>ABOUT US</li>
-              <li>CONTACT</li>
+              <Link href={"/"} id={styles.links}>
+                <li>HOME</li>
+              </Link>
+              <Link href={"/About"} id={styles.links}>
+                <li>ABOUT US</li>
+              </Link>
+              <Link href={"/Contactus"} id={styles.links}>
+                <li>CONTACT</li>
+              </Link>
               <li onClick={handleDotMenu}>
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
@@ -85,9 +92,16 @@ export default function NavBar({ setOpenDot, openDot }) {
             >
               <div className={styles.MobileMenuLinks}>
                 <ul>
-                  <li>HOME</li>
-                  <li>ABOUT US</li>
-                  <li>CONTACT</li>
+                  <Link href={"/"} id={styles.links}>
+                    <li>HOME</li>
+                  </Link>
+
+                  <Link href={"/About"} id={styles.links}>
+                    <li>ABOUT US</li>
+                  </Link>
+                  <Link href={"/Contactus"} id={styles.links}>
+                    <li>CONTACT</li>
+                  </Link>
                 </ul>
               </div>
 

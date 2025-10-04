@@ -5,10 +5,15 @@
 }
 
 .FooterWrapper {
-  max-width: 1400px;
+  max-width: 1600px;
   width: 100%;
   padding: 8vh 5vw;
   margin: 0 auto;
+}
+
+.FooterTopRight {
+  display: flex;
+  gap: 5rem;
 }
 
 .FooterTop {
@@ -84,8 +89,12 @@
 /* 🔹 Responsive Design */
 @media (max-width: 1024px) {
   .FooterTop {
-    justify-content: flex-start;
+    /* justify-content: flex-start; */
     gap: 3rem;
+  }
+
+  .FooterTopRight {
+    gap: 2rem;
   }
 }
 
@@ -101,7 +110,13 @@
   }
 
   .OfficeAddress {
-    max-width: 100%;
+    max-width: 350px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .OfficeAddress {
+    max-width: 200px;
   }
 }
 

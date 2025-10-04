@@ -1,26 +1,16 @@
 "use client";
-
-import Homesection from "@/pages/HomeSection/Homesection";
-import Info from "@/pages/Info/Info";
-import DotMenu from "@/pages/DotMenu/DotMenu";
-import NavBar from "@/pages/NavBar/NavBar";
-import { useState } from "react";
-import Blogs from "@/pages/Blogs/Blogs";
-import Testimonials from "@/pages/Testimonials/Testimonials";
-import Footer from "@/pages/Footer/Footer";
+import Homesection from "./HomeSection/Homesection";
+import Info from "./Info/Info";
+import Blogs from "./Blogs/Blogs";
+import Testimonials from "./Testimonials/Testimonials";
 
 export default function Home() {
-  const [openDot, setOpenDot] = useState(false);
-
   return (
     <main>
-      <NavBar setOpenDot={setOpenDot} openDot={openDot} />
-      <DotMenu setOpenDot={setOpenDot} openDot={openDot} />
       <Homesection />
       <Info />
       <Blogs />
       <Testimonials />
-      <Footer />
     </main>
   );
 }
