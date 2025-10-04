@@ -1,0 +1,92 @@
+.AboutHeadWrapper {
+  padding: 15vh 7vh 12vh 7vh;
+  /* height: 300px; */
+  color: white;
+  text-align: center;
+  align-content: center;
+  background-color: #242134;
+}
+
+.AboutHead {
+  font-size: 54px;
+}
+
+.AboutLinks {
+  margin-top: 2vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 2vh;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.AboutContent {
+  margin: 96px 0px;
+  padding: 0vh 7vh;
+}
+
+.Whoweare,
+.Aboutus {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 5rem;
+  margin: 96px 0px;
+  color: black;
+}
+
+.WhoweareImg,
+.WhoweareImg img,
+.AboutusImg,
+.AboutusImg img {
+  height: 100%;
+  width: 100%;
+}
+
+.WhoweareHead,
+.AboutusHead,
+.AboutusPortfoliohead {
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.AboutusPortfolioDesc {
+  font-size: 54px;
+  font-weight: bold;
+}
+
+.AboutusPortfoliohead,
+.AboutusPortfolioDesc {
+  padding: 0vh 7vh;
+  color: black;
+}
+
+.AboutusPortfolioImg {
+  height: 60vh;
+  width: 100%;
+  margin-top: 5vh;
+}
+
+.AboutusPortfolioImg img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
+@media screen and (max-width: 767px) {
+  .AboutHead,
+  .AboutusPortfolioDesc {
+    font-size: 34px;
+  }
+
+  .Whoweare,
+  .Aboutus {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+  }
+
+  .Aboutus {
+    flex-direction: column-reverse;
+  }
+}
