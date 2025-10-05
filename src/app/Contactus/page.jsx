@@ -189,6 +189,35 @@ export default function ContactUs() {
                 id={styles.textarea}
               ></textarea>
             </div>
+
+            <div className={styles.SubmitButton}>
+              <button>
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="24"
+                  height="24"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    fill="none"
+                    stroke="currentColor"
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    strokeWidth="1.5"
+                    d="M21 5L2 12.5l7 1M21 5l-2.5 15L9 13.5M21 5L9 13.5m0 0V19l3.249-3.277"
+                  />
+                </svg>
+                GET IN TOUCH
+              </button>
+
+              <div className={styles.policy}>
+                <input type="checkbox" id={styles.checkbox} />
+                <span>
+                  I agree with the site's{" "}
+                  <span id={styles.PP}>privacy policy.</span>
+                </span>
+              </div>
+            </div>
           </div>
         </div>
       </div>
