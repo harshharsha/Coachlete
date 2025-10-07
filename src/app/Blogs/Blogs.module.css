@@ -11,7 +11,7 @@
 
 .BlogImageCardsWrapper {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
   padding: 5vh 2vh;
   gap: 5vh;
 }
@@ -46,7 +46,7 @@
 }
 
 .BlogImage1Head {
-  font-size: 24px;
+  font-size: 20px;
   font-weight: bold;
   display: flex;
   align-items: center;

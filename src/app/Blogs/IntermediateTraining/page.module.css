@@ -1,11 +1,11 @@
-.YDHeadWrapper {
+.YDHead {
   padding: 15vh 7vh 12vh 7vh;
   /* height: 300px; */
   color: white;
   text-align: center;
   align-content: center;
   font-size: 54px;
-  background-color: black;
+  background-color: #242134;
 }
 
 .YDContentWrapper {
@@ -14,36 +14,14 @@
   align-content: center;
 }
 
-.YDLinks {
-  margin-top: 2vh;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  gap: 2vh;
-  font-size: 14px;
-  font-weight: bold;
-}
-
 .YDContent {
-  margin: 96px 0px;
-  padding: 0vh 7vh;
+  padding: 10vh 7vh;
   height: 100%;
   width: 100%;
   display: grid;
   grid-template-columns: 1fr 1fr;
-  align-items: start;
+  align-items: center;
   max-width: 1600px;
-}
-
-.YDContentHead,
-.YDContent2Head,
-.TipsHead {
-  font-size: 34px;
-  font-weight: bold;
-}
-
-.YDContent2Head {
-  margin-top: 5vh;
 }
 
 .YDImg {
@@ -57,35 +35,8 @@
   object-fit: cover;
 }
 
-.YDDesc,
-.YDContent2Desc,
-.TipsLists {
+.YDDesc {
   color: black;
-  margin-top: 2vh;
-  line-height: 3.5vh;
-}
-
-.YDContent2Desc,
-.TipsLists {
-  padding-left: 3vh;
-}
-
-.YDContent2Desc ul,
-.TipsLists ul {
-  display: flex;
-  flex-direction: column;
-  gap: 2vh;
-}
-
-#listHead {
-  font-weight: bold;
-}
-
-.TipsWrapper1 {
-  margin: 0px 7vh 96px 7vh;
-  padding: 5vh;
-  background-color: aqua;
-  width: fit-content;
 }
 
 @media screen and (max-width: 767px) {

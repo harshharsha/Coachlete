@@ -38,23 +38,30 @@ export default function Blogs() {
     {
       id: 1,
       no: "01",
-      head: "All-Sports, One Platform",
+      head: "Youth Development Blog",
       img: "assets/Home/volleyball.jpg",
       url: "/Blogs/YouthDevelopment",
     },
     {
       id: 2,
       no: "02",
-      head: "Adanced training",
+      head: "Beginner’s Training",
       img: "assets/Home/volleyball.jpg",
-      url: "/Blogs/AdvancedTraining",
+      url: "/Blogs/BeginnerTraining",
     },
     {
       id: 3,
       no: "03",
-      head: "Elite athlete training",
+      head: "Intermediate Training",
       img: "assets/Home/volleyball.jpg",
-      url: "/Blogs/EliteAthlete",
+      url: "/Blogs/IntermediateTraining",
+    },
+    {
+      id: 4,
+      no: "04",
+      head: "Advanced Training",
+      img: "assets/Home/volleyball.jpg",
+      url: "/Blogs/AdvancedTraining",
     },
   ];
 

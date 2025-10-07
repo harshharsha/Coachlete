@@ -1,12 +1,12 @@
 import React from "react";
 import styles from "./page.module.css";
 
-export default function EliteAthlete() {
+export default function IntermediateTraining() {
   return (
     <>
       <div className={styles.Main}>
         <div className={styles.YDHead}>
-          <span>Elite athlete training</span>
+          <span>Intermediate training</span>
         </div>
 
         <div className={styles.YDContentWrapper}>
