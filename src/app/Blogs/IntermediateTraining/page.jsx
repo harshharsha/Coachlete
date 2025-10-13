@@ -35,7 +35,7 @@ export default function IntermediateTraining() {
                 <p className={styles.leadparagraph}>
                   You've already taken the first step, built your basics and
                   gained confidence as a beginner. Now comes the exciting and
-                  challenging phase - Intermediate Training. This stage is where
+                  challenging phase Intermediate Training. This stage is where
                   athletes transform from learners into competitors, refining
                   skills and pushing boundaries.
                 </p>
@@ -59,8 +59,8 @@ export default function IntermediateTraining() {
                   A coach helps break all the barriers by introducing advanced
                   drills, correcting finer techniques and giving tactical
                   insights that athletes can't always see themselves. More
-                  importantly, coaches provide structured progression - the
-                  right balance between pushing harder and preventing burnout.
+                  importantly, coaches provide structured progression the right
+                  balance between pushing harder and preventing burnout.
                 </p>
               </div>
 
@@ -94,7 +94,7 @@ export default function IntermediateTraining() {
                 <h3>Tips for Intermediate</h3>
                 <div className={styles.tipsgrid}>
                   <div className={styles.tipcard}>
-                    <div className={styles.tipicon}>🎯</div>
+                    <div className={styles.tipicon}>⛰️</div>
                     <h4>Increase Intensity Gradually</h4>
                     <p>
                       Add new drills, longer sessions, or tougher workouts
@@ -102,7 +102,7 @@ export default function IntermediateTraining() {
                     </p>
                   </div>
                   <div className={styles.tipcard}>
-                    <div className={styles.tipicon}>💪</div>
+                    <div className={styles.tipicon}>📅</div>
                     <h4>Focus on Consistency</h4>
                     <p>
                       Missing training sessions slows progress more at this
@@ -110,7 +110,7 @@ export default function IntermediateTraining() {
                     </p>
                   </div>
                   <div className={styles.tipcard}>
-                    <div className={styles.tipicon}>🧠</div>
+                    <div className={styles.tipicon}>📊</div>
                     <h4>Start Tracking Performance</h4>
                     <p>
                       Note timings, reps, distances or scores measurable growth
@@ -118,7 +118,7 @@ export default function IntermediateTraining() {
                     </p>
                   </div>
                   <div className={styles.tipcard}>
-                    <div className={styles.tipicon}>🏆</div>
+                    <div className={styles.tipicon}>🦁</div>
                     <h4>Work on Mental Strength</h4>
                     <p>
                       Learn focus, discipline and handling pressure because
@@ -163,7 +163,7 @@ export default function IntermediateTraining() {
                     {/* <span className={styles.postdate}>Oct 3, 2025</span> */}
                   </div>
                 </a>
-                <a href="/AdancedTraining" className={styles.relatedpost}>
+                <a href="AdvancedTraining" className={styles.relatedpost}>
                   <img
                     src="https://images.pexels.com/photos/1552242/pexels-photo-1552242.jpeg?auto=compress&cs=tinysrgb&w=300"
                     alt="Coaching"

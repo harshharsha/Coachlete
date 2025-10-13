@@ -66,7 +66,7 @@ export default function AdvancedTraining() {
                       to competition.
                     </li>
                     <li>
-                      Data-Griven Training - Performance analysis, video
+                      Data Griven Training - Performance analysis, video
                       feedback and precision corrections.
                     </li>
                     <li>
@@ -107,7 +107,7 @@ export default function AdvancedTraining() {
                 <h3>Tips for Advanced Athletes</h3>
                 <div className={styles.tipsgrid}>
                   <div className={styles.tipcard}>
-                    <div className={styles.tipicon}>🎯</div>
+                    <div className={styles.tipicon}>🧩</div>
                     <h4>Set Micro-Goals</h4>
                     <p>
                       At this level, small improvements can mean winning or
@@ -115,7 +115,7 @@ export default function AdvancedTraining() {
                     </p>
                   </div>
                   <div className={styles.tipcard}>
-                    <div className={styles.tipicon}>💪</div>
+                    <div className={styles.tipicon}>🛌</div>
                     <h4>Focus on Recovery</h4>
                     <p>
                       Ice baths, physiotherapy, yoga, and mental rest are as
@@ -123,7 +123,7 @@ export default function AdvancedTraining() {
                     </p>
                   </div>
                   <div className={styles.tipcard}>
-                    <div className={styles.tipicon}>🧠</div>
+                    <div className={styles.tipicon}>♟️</div>
                     <h4>Develop Game IQ</h4>
                     <p>
                       Study opponents, analyze matches, and refine strategy with
@@ -131,7 +131,7 @@ export default function AdvancedTraining() {
                     </p>
                   </div>
                   <div className={styles.tipcard}>
-                    <div className={styles.tipicon}>🏆</div>
+                    <div className={styles.tipicon}>🦅</div>
                     <h4>Build a Winning Mindset</h4>
                     <p>
                       Confidence, discipline, and emotional resilience define

@@ -20,7 +20,7 @@ function About() {
               <h2 className={styles.sectiontitle}>Who We Are</h2>
               <div className={styles.titleunderline}></div>
               <p className={styles.sectionlead}>
-                Coachlete is more than just a platform—it's a movement dedicated
+                Coachlete is more than just a platform it's a movement dedicated
                 to transforming the relationship between athletes and coaches.
               </p>
               <p className={styles.sectiontext}>
@@ -50,10 +50,10 @@ function About() {
                 alt="Coaching session"
                 className={styles.mainimage}
               />
-              <div className={styles.floatingcard}>
+              {/* <div className={styles.floatingcard}>
                 <div className={styles.cardstat}>10,000+</div>
                 <div className={styles.cardlabel}>Active Athletes</div>
-              </div>
+              </div> */}
             </div>
           </div>
         </section>
@@ -125,8 +125,8 @@ function About() {
               </div>
               <h3>Growth</h3>
               <p>
-                We believe in continuous improvement—for athletes, coaches, and
-                our platform—always evolving to serve our community better.
+                We believe in continuous improvement for athletes, coaches, and
+                our platform always evolving to serve our community better.
               </p>
             </div>
 
@@ -152,10 +152,10 @@ function About() {
                 <h3>Our Mission</h3>
               </div>
               <p>
-                To democratize access to quality sports coaching by creating a
-                seamless platform that connects aspiring athletes with
-                experienced mentors, fostering growth, skill development, and
-                character building through sport.
+                To ignite India’s passion for sports by empowering every
+                individual to find the right coach for any sport, any place, any
+                time. We’re here to make the pursuit of excellence personal,
+                powerful, and possible. 
               </p>
             </div>
 
@@ -165,10 +165,10 @@ function About() {
                 <h3>Our Vision</h3>
               </div>
               <p>
-                A world where every athlete, regardless of their background or
-                location, has access to the coaching they need to reach their
-                full potential, and where every coach is recognized and rewarded
-                for their invaluable contribution to sports development.
+                To build a nation where every dreamer has a coach, every corner
+                has a champion, and every talent—no matter where it’s born—gets
+                the chance to rise. We envision India where sports is not a
+                privilege, but a way of life.
               </p>
             </div>
           </div>
@@ -237,12 +237,13 @@ function About() {
               <div className={styles.timelineitem}>
                 <div className={styles.timelinedot}></div>
                 <div className={styles.timelinecontent}>
-                  <h4>2020 - The Beginning</h4>
+                  <h4>2020 - The Spark</h4>
                   <p>
-                    Coachlete was born from a simple observation: talented
-                    athletes and skilled coaches were struggling to find each
-                    other. Our founders, combining their experience in sports
-                    and technology, decided to create a solution.
+                    It all began with a simple observation: talented athletes
+                    across India struggled to find the right coaches, while
+                    skilled coaches lacked visibility. This gap inspired our
+                    vision to create a platform that empowers athletes to
+                    connect with the right mentors and unlock their potential.
                   </p>
                 </div>
               </div>
@@ -250,11 +251,13 @@ function About() {
               <div className={styles.timelineitem}>
                 <div className={styles.timelinedot}></div>
                 <div className={styles.timelinecontent}>
-                  <h4>2021 - Launch & Growth</h4>
+                  <h4>2022 - The Beginning</h4>
                   <p>
-                    We launched our platform with 100 coaches and 500 athletes.
-                    The response was overwhelming, validating our belief that
-                    the sports community needed this connection.
+                    Our founders, combining their experience in sports and
+                    technology, decided to turn this vision into reality.
+                    Coachlete was born built on the belief that every athlete
+                    deserves equal access to quality coaching, no matter where
+                    they come from.
                   </p>
                 </div>
               </div>
@@ -262,11 +265,13 @@ function About() {
               <div className={styles.timelineitem}>
                 <div className={styles.timelinedot}></div>
                 <div className={styles.timelinecontent}>
-                  <h4>2023 - Expanding Horizons</h4>
+                  <h4>2023 - The Market Research</h4>
                   <p>
-                    Reached 5,000 athletes and 1,000 coaches. Added new features
-                    including video coaching sessions, progress tracking, and
-                    achievement badges.
+                    We spent the year studying India’s sports ecosystem,
+                    interacting with athletes, coaches, and academies across the
+                    country. Through deep research, we identified critical gaps
+                    in accessibility, mentorship, and structured development
+                    insights that shaped the foundation of Coachlete.
                   </p>
                 </div>
               </div>
@@ -274,11 +279,33 @@ function About() {
               <div className={styles.timelineitem}>
                 <div className={styles.timelinedot}></div>
                 <div className={styles.timelinecontent}>
-                  <h4>2025 - Today</h4>
+                  <h4>2024 - A Vision Registered</h4>
                   <p>
-                    Now serving 10,000+ athletes and 2,500+ coaches across 150+
-                    sports disciplines. We continue to innovate and grow, driven
-                    by our community's success stories.
+                    This was the year our idea transformed into a brand. We
+                    closely observed the global sporting scene and learned from
+                    India’s challenges during the 2024 Olympic preparations.
+                    Coachlete officially became a registered brand with a single
+                    mission: “To put more Indians into sports by giving them the
+                    power to choose their coach anytime anywhere for any sport”
+                  </p>
+                </div>
+              </div>
+
+              <div className={styles.timelineitem}>
+                <div className={styles.timelinedot}></div>
+                <div className={styles.timelinecontent}>
+                  <h4>2025 - The Launch</h4>
+                  <p>
+                    Our journey has just begun. We’re now focused on expanding
+                    our reach to every corner of India, partnering with
+                    academies, and supporting grassroots sports development. Our
+                    platform introduced smart features such as online booking,
+                    demo sessions, performance analytics, and real time progress
+                    tracking, making professional coaching accessible to all.
+                    Today, Coachlete is more than just an app it’s a movement
+                    bringing coaches and athletes together to build India’s
+                    sporting future. Coachlete Empowering India, one athlete at
+                    a time.
                   </p>
                 </div>
               </div>

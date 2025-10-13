@@ -36,8 +36,8 @@ export default function YouthDevelopment() {
                 <p className={styles.leadparagraph}>
                   When we talk about youth development, one thing stands out
                   clearly: sports is more than just a game. It is discipline,
-                  teamwork, resilience, and self-belief — all wrapped into one.
-                  For young people, these qualities are not just skills on the
+                  teamwork, resilience, and selfbelief all wrapped into one. For
+                  young people, these qualities are not just skills on the
                   field, but lessons for life.
                 </p>
                 <p>
@@ -59,7 +59,7 @@ export default function YouthDevelopment() {
               <div className={styles.contentsection}>
                 <h3>The Role of Coaches in Youth Development</h3>
                 <p>
-                  Coaches shape not just skills but also values — and for youth,
+                  Coaches shape not just skills but also values and for youth,
                   this mentorship often becomes a turning point in their
                   journey. Through Coachlete, we're ensuring that coaches are
                   visible, accessible, and recognized. And in turn, young
@@ -168,7 +168,7 @@ export default function YouthDevelopment() {
                     {/* <span className={styles.postdate}>Oct 3, 2025</span> */}
                   </div>
                 </a>
-                <a href="AdvanceTraining" className={styles.relatedpost}>
+                <a href="AdvancedTraining" className={styles.relatedpost}>
                   <img
                     src="https://images.pexels.com/photos/1552242/pexels-photo-1552242.jpeg?auto=compress&cs=tinysrgb&w=300"
                     alt="Coaching"
