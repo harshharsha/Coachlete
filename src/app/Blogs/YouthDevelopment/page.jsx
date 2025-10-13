@@ -95,38 +95,39 @@ export default function YouthDevelopment() {
               </div>
 
               <div className={styles.contentsection}>
-                <h3>Tips for Advanced Athletes</h3>
+                <h3>Why Youth Development Through Sports Matters</h3>
                 <div className={styles.tipsgrid}>
                   <div className={styles.tipcard}>
                     <div className={styles.tipicon}>🎯</div>
-                    <h4>Set Micro-Goals</h4>
+                    <h4>Character Building</h4>
                     <p>
-                      At this level, small improvements can mean winning or
-                      losing. Track details.
+                      Sports instill discipline, accountabililty and respect,
+                      preparing youth for challenges beyond the playground.
                     </p>
                   </div>
                   <div className={styles.tipcard}>
                     <div className={styles.tipicon}>💪</div>
-                    <h4>Focus on Recovery</h4>
+                    <h4>Health & Fitness</h4>
                     <p>
-                      Ice baths, physiotherapy, yoga, and mental rest are as
-                      important as the grind.
+                      At a time when screen time is rising, sports keeps young
+                      bodies active and healthy.
                     </p>
                   </div>
                   <div className={styles.tipcard}>
                     <div className={styles.tipicon}>🧠</div>
-                    <h4>Develop Game IQ</h4>
+                    <h4>Teamwork & Leadership</h4>
                     <p>
-                      Study opponents, analyze matches, and refine strategy with
-                      your coach.
+                      Learning to win together and sometimes lose together
+                      develops emotional intelligence.
                     </p>
                   </div>
                   <div className={styles.tipcard}>
                     <div className={styles.tipicon}>🏆</div>
-                    <h4>Build a Winning Mindset</h4>
+                    <h4>Opportunities for Growth</h4>
                     <p>
-                      Confidence, discipline, and emotional resilience define
-                      champions.
+                      With the right coaching, passion turns into performance
+                      and performance into opportunities at state, national or
+                      international levels.
                     </p>
                   </div>
                 </div>
@@ -147,40 +148,40 @@ export default function YouthDevelopment() {
             <div className={styles.sidebarcard}>
               <h3>Related Articles</h3>
               <div className={styles.relatedposts}>
-                <a href="#" className={styles.relatedpost}>
+                <a href="BeginnerTraining" className={styles.relatedpost}>
                   <img
                     src="https://images.pexels.com/photos/3621104/pexels-photo-3621104.jpeg?auto=compress&cs=tinysrgb&w=300"
                     alt="Training"
                   />
                   <div>
-                    <h4>Mental Preparation for Athletes</h4>
-                    <span className={styles.postdate}>Oct 5, 2025</span>
+                    <h4>Beginner's Training</h4>
+                    {/* <span className={styles.postdate}>Oct 5, 2025</span> */}
                   </div>
                 </a>
-                <a href="#" className={styles.relatedpost}>
+                <a href="IntermediateTraining" className={styles.relatedpost}>
                   <img
                     src="https://images.pexels.com/photos/3764011/pexels-photo-3764011.jpeg?auto=compress&cs=tinysrgb&w=300"
                     alt="Nutrition"
                   />
                   <div>
-                    <h4>Nutrition Guide for Peak Performance</h4>
-                    <span className={styles.postdate}>Oct 3, 2025</span>
+                    <h4>Intermediate Training</h4>
+                    {/* <span className={styles.postdate}>Oct 3, 2025</span> */}
                   </div>
                 </a>
-                <a href="#" className={styles.relatedpost}>
+                <a href="AdvanceTraining" className={styles.relatedpost}>
                   <img
                     src="https://images.pexels.com/photos/1552242/pexels-photo-1552242.jpeg?auto=compress&cs=tinysrgb&w=300"
                     alt="Coaching"
                   />
                   <div>
-                    <h4>Finding the Right Coach for You</h4>
-                    <span className={styles.postdate}>Sep 30, 2025</span>
+                    <h4>Advanced Training</h4>
+                    {/* <span className={styles.postdate}>Sep 30, 2025</span> */}
                   </div>
                 </a>
               </div>
             </div>
 
-            <div className={styles.sidebarcard}>
+            {/* <div className={styles.sidebarcard}>
               <h3>Categories</h3>
               <div className={styles.categories}>
                 <a href="#" className={styles.categorytag}>
@@ -199,7 +200,7 @@ export default function YouthDevelopment() {
                   Success Stories
                 </a>
               </div>
-            </div>
+            </div> */}
 
             <div className={`${styles.sidebarcard} ${styles.newsletter}`}>
               <h3>Subscribe to Our Newsletter</h3>

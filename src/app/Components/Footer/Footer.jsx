@@ -20,12 +20,11 @@ export default function Footer() {
 
               <div className={styles.OfficeAddress}>
                 <span>
-                  Germany
-                  lajflsjdflslfdlksdjfklasldkfjlkasjdflksjfkjlkdsajflkadsflkjlkdsjfkljdsflsfkjlsfdkjlksjdflkjsldjfklsjdflkjsldjflksdjlfkjalsdjf
+                  No 116, 4th cross, Prakruthinagar, Bharathnagar - 560091
                 </span>
               </div>
-              <div className={styles.Officemail}>test@gmail.com</div>
-              <div className={styles.OfficePhone}>464654654564654</div>
+              <div className={styles.Officemail}>support@coachlete.co.in</div>
+              <div className={styles.OfficePhone}>+91 8105397773</div>
             </div>
             <div className={styles.Links}>
               <div className={styles.LinkHead}>
@@ -34,9 +33,18 @@ export default function Footer() {
 
               <div className={styles.LinksList}>
                 <ul>
-                  <li>Home</li>
-                  <li>About us</li>
-                  <li>Contact us</li>
+                  <a href="/">
+                    <li>Home</li>
+                  </a>
+                  <a href="About">
+                    <li>About us</li>
+                  </a>
+                  <a href="Contactus">
+                    <li>Contact us</li>
+                  </a>
+                  <a href="TermsCondition">
+                    <li>Terms & Conditions</li>
+                  </a>
                   <li>Privacy policy</li>
                 </ul>
               </div>
