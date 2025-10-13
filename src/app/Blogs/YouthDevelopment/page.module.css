@@ -6,7 +6,8 @@
 }
 
 .blogheader {
-  background: linear-gradient(135deg, #1e293b 0%, #334155 100%);
+  /* background: linear-gradient(135deg, #1e293b 0%, #334155 100%); */
+  background-color: black;
   color: white;
   padding: 6rem 2rem;
   text-align: center;
@@ -35,7 +36,7 @@
 }
 
 .headercontent {
-  max-width: 1400px;
+  max-width: 1600px;
   margin: 0 auto;
   position: relative;
   z-index: 1;
@@ -87,7 +88,7 @@
 }
 
 .blogmain {
-  max-width: 1400px;
+  max-width: 1600px;
   margin: 0 auto;
   padding: 4rem 2rem;
   display: grid;
@@ -419,6 +420,7 @@
   transition: all 0.3s ease;
   padding: 0.75rem;
   border-radius: 8px;
+  align-items: center;
 }
 
 .relatedpost:hover {
@@ -538,7 +540,7 @@
 }
 
 .footercontent {
-  max-width: 1400px;
+  max-width: 1600px;
   margin: 0 auto;
   display: flex;
   justify-content: space-between;
