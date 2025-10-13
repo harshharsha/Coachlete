@@ -21,7 +21,7 @@ export default function NavBar({ setOpenDot, openDot }) {
           }`}
         >
           <div className={styles.NavBarLogo}>
-            <span>Logo</span>
+            <img src="/assets/Logo/coachlete1.png" alt="" />
           </div>
           <div className={styles.NavBarLinks}>
             <ul>

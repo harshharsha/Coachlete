@@ -1,11 +1,12 @@
 .DotMenuMain {
-  background-color: aquamarine;
+  background-color: black;
+  color: white;
   position: fixed;
   top: 0;
   right: 0;
   width: 25vw;
   height: 100%;
-  z-index: 1;
+  z-index: 3;
   padding: 5vh;
   display: flex;
   flex-direction: column;
@@ -18,11 +19,22 @@
   justify-content: space-between;
 }
 
+.DotMenuLogo {
+  width: 180px;
+  height: 100%;
+}
+
+.DotMenuLogo img {
+  width: 100%;
+  height: 100%;
+}
+
 .DotMenuClose {
   padding: 1.5vh;
-  background-color: rgba(0, 0, 0, 0.11);
+  background-color: rgba(255, 255, 255, 0.2);
   border-radius: 50px;
   display: flex;
+  cursor: pointer;
 }
 
 .DotSocialMediaLinks ul {
@@ -39,6 +51,11 @@
   display: flex;
   align-items: center;
   gap: 2vh;
+}
+
+.SocialLinks {
+  text-decoration: none;
+  color: rgba(255, 255, 255, 0.5);
 }
 
 .DotSocialMediaLinks ul li {

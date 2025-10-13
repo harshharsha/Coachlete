@@ -5,51 +5,60 @@
   z-index: 2;
 }
 
-.NavBarWrapper {
-  position: absolute;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  width: 100%;
-  padding: 2vh;
-  height: 9.5vh;
-  transition: all 0.3s ease-in-out;
-  /* z-index: 1; */
-}
-
+/* Default wrapper */
+.NavBarWrapper,
 .NavBarWrapperOpen {
   position: absolute;
   display: flex;
   align-items: center;
   justify-content: space-between;
   width: 100%;
-  padding: 4vh;
-  height: 9.5vh;
-  background-color: black;
-  border-bottom: 1px solid rgba(255, 255, 255, 0.5);
+  padding: 2vh 4vw;
+  /* height: 9.5vh; */
   transition: all 0.3s ease-in-out;
 }
 
-.NavBarLogo {
-  color: white;
-  padding: 0vh 5vh;
+.NavBarWrapperOpen {
+  background-color: black;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.5);
 }
 
+/* ✅ Responsive logo area */
+.NavBarLogo {
+  display: flex;
+  align-items: center;
+  width: clamp(120px, 18vw, 170px);
+  height: auto;
+}
+
+.NavBarLogo img {
+  width: 100%;
+  height: auto;
+  object-fit: contain;
+}
+
+/* ✅ Responsive link styling */
 .NavBarLinks ul {
   display: flex;
   align-items: center;
-  gap: 3vh;
+  gap: clamp(1rem, 2vw, 3rem);
   list-style: none;
-  font-size: 14px;
-  font-weight: bold;
+  font-size: clamp(0.8rem, 1.1vw, 1.2rem);
+  font-weight: 600;
   color: white;
-  padding: 0vh 5vh;
+}
+
+#links {
+  color: white;
+  text-decoration: none;
 }
 
 .menuIcon {
-  width: 2vw;
+  width: clamp(20px, 2vw, 28px);
+  cursor: pointer;
 }
 
+/* ✅ Mobile Menu Icon */
 .MobileMenuIcon {
   display: none;
 }
@@ -62,16 +71,16 @@
   width: 100%;
   z-index: 999;
   color: white;
-  padding: 5vh;
-  /* height: 100vh; */
+  padding: 4vh 6vw;
 }
 
 .MobileMenuLinks ul {
   list-style-type: none;
   display: flex;
   flex-direction: column;
-  gap: 3vh;
+  gap: 2.5vh;
 }
+
 .MobileSocialMediaLinks ul {
   list-style: none;
   margin-top: 3vh;
@@ -86,26 +95,23 @@
   border-color: rgba(255, 255, 255, 0.5);
 }
 
-#links {
-  color: white;
-  text-decoration: none;
-}
-
+/* ✅ MOBILE RESPONSIVENESS */
 @media screen and (max-width: 767px) {
-  .MobileMenuIcon {
-    display: block;
+  .NavBarWrapper,
+  .NavBarWrapperOpen {
+    padding: 3vh 5vw;
   }
 
   .NavBarLinks {
     display: none;
   }
 
-  .NavBarLogo {
-    padding-left: 0vh;
+  .MobileMenuIcon {
+    display: block;
   }
 
-  .NavBarWrapper {
-    padding: 4vh 5vh;
+  .NavBarLogo {
+    width: clamp(120px, 40vw, 180px);
   }
 
   .mobileMenu {
@@ -113,20 +119,25 @@
   }
 }
 
-@media screen and (min-width: 601px) and (max-width: 1294px) {
+/* ✅ TABLET SCREENS */
+@media screen and (min-width: 768px) and (max-width: 1294px) {
   .NavBarLinks ul {
-    font-size: 15px;
+    font-size: clamp(0.9rem, 1.3vw, 1.1rem);
+    gap: 2vw;
+  }
+
+  .NavBarLogo {
+    width: clamp(150px, 22vw, 220px);
   }
 }
 
-/* @media screen and (min-width: 1295px) and (max-width: 1799px) {
-  .NavBarLinks ul {
-    font-size: 15px;
-  }
-} */
-
+/* ✅ LARGE SCREENS */
 @media screen and (min-width: 1800px) {
   .NavBarLinks ul {
-    font-size: 25px;
+    font-size: clamp(1.2rem, 1vw, 1.5rem);
+  }
+
+  .NavBarLogo {
+    width: clamp(220px, 15vw, 350px);
   }
 }
