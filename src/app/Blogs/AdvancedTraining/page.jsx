@@ -176,13 +176,13 @@ export default function AdvancedTraining() {
                     {/* <span className={styles.postdate}>Oct 3, 2025</span> */}
                   </div>
                 </a>
-                <a href="/AdancedTraining" className={styles.relatedpost}>
+                <a href="IntermediateTraining" className={styles.relatedpost}>
                   <img
                     src="https://images.pexels.com/photos/1552242/pexels-photo-1552242.jpeg?auto=compress&cs=tinysrgb&w=300"
                     alt="Coaching"
                   />
                   <div>
-                    <h4>Advanced Training</h4>
+                    <h4>Intermediate Training</h4>
                     {/* <span className={styles.postdate}>Sep 30, 2025</span> */}
                   </div>
                 </a>

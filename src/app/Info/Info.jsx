@@ -79,9 +79,8 @@ export default function Info() {
             </div>
             <div className={styles.InfoCardDesc}>
               <span>
-                Connect with coaches across 20+ sports — from mainstream to
-                niche making Coachlete India’s first truly all-sports coaching
-                hub.
+                Connect with coaches across 20+ sports from mainstream to niche
+                making Coachlete India’s first truly all-sports coaching hub.
               </span>
             </div>
           </div>
