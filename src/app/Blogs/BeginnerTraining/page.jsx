@@ -56,10 +56,10 @@ export default function BeginnerTraining() {
                 <h3>The Role of Coaches in Beginner Training</h3>
                 <p>
                   Coaches not only teach skills but also guide your mindset,
-                  motivateyou on tough days, and push you when you don't believe
-                  in youself. Coachlete helps you find verified coaches in 20+
-                  sports, so your beginner journey is sage, structured and
-                  inspiring.
+                  motivate you on tough days, and push you when you don't
+                  believe in youself. Coachlete helps you find verified coaches
+                  in 20+ sports, so your beginner journey is sage, structured
+                  and inspiring.
                 </p>
               </div>
 
@@ -93,19 +93,19 @@ export default function BeginnerTraining() {
                 <h3>Tips for Beginners</h3>
                 <div className={styles.tipsgrid}>
                   <div className={styles.tipcard}>
-                    <div className={styles.tipicon}>🎯</div>
+                    <div className={styles.tipicon}>⏳</div>
                     <h4>Start Small, Stay Consistant</h4>
                     <p>10 minutes a day is better than 2 hours once a week</p>
                   </div>
                   <div className={styles.tipcard}>
-                    <div className={styles.tipicon}>💪</div>
+                    <div className={styles.tipicon}>🧘‍♀️</div>
                     <h4>Listen to Your Body</h4>
                     <p>
                       Fatigue is normal, pain is not. Learn to differentiate.
                     </p>
                   </div>
                   <div className={styles.tipcard}>
-                    <div className={styles.tipicon}>🧠</div>
+                    <div className={styles.tipicon}>📈</div>
                     <h4>Set Realistic Goals</h4>
                     <p>
                       Instead of "I want to win a medal," start with "I want to
@@ -113,7 +113,7 @@ export default function BeginnerTraining() {
                     </p>
                   </div>
                   <div className={styles.tipcard}>
-                    <div className={styles.tipicon}>🏆</div>
+                    <div className={styles.tipicon}>🎉</div>
                     <h4>Celebrate Progress</h4>
                     <p>
                       Every session you complete takes you closer to your dream.

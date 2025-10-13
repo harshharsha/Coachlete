@@ -25,7 +25,7 @@ export default function Info() {
             <div className={styles.InfoCardDesc}>
               <span>
                 Book trial sessions, schedule practice, track progress, and stay
-                motivated — all in one app.
+                motivated all in one app.
               </span>
             </div>
           </div>
@@ -51,7 +51,7 @@ export default function Info() {
             <div className={styles.InfoCardDesc}>
               <span>
                 Find the right coach near you based on location, sport, and
-                training goals — no more guesswork.
+                training goals no more guesswork.
               </span>
             </div>
           </div>
@@ -80,7 +80,7 @@ export default function Info() {
             <div className={styles.InfoCardDesc}>
               <span>
                 Connect with coaches across 20+ sports — from mainstream to
-                niche — making Coachlete India’s first truly all-sports coaching
+                niche making Coachlete India’s first truly all-sports coaching
                 hub.
               </span>
             </div>
