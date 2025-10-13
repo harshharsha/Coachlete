@@ -8,7 +8,11 @@
 }
 
 .ContactHead {
-  font-size: 54px;
+  letter-spacing: -1px;
+  margin-bottom: 1rem;
+  font-size: 3.5rem;
+  font-weight: 800;
+  line-height: 1.2;
 }
 
 .ContactLinks {
@@ -60,7 +64,7 @@
   margin: 96px 0px;
   padding: 0vh 7vh;
   color: black;
-  max-width: 1600px;
+  max-width: 1500px;
 }
 
 .ContactLeftHead {
@@ -69,8 +73,11 @@
 }
 
 .ContactLeftDesc {
-  font-size: 54px;
-  font-weight: bold;
+  letter-spacing: -1px;
+  margin-bottom: 1rem;
+  font-size: 3.5rem;
+  font-weight: 800;
+  line-height: 1.2;
   margin: 3vh 0vh;
 }
 
@@ -182,6 +189,7 @@
 
 #PP {
   text-decoration: underline;
+  cursor: pointer;
 }
 
 @media screen and (max-width: 767px) {

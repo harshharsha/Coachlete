@@ -1,6 +1,7 @@
 import React from "react";
 import styles from "./DotMenu.module.css";
 import { motion, AnimatePresence } from "framer-motion";
+import Link from "next/link";
 
 export default function DotMenu({ setOpenDot, openDot }) {
   return (
@@ -15,8 +16,8 @@ export default function DotMenu({ setOpenDot, openDot }) {
           transition={{ type: "tween", duration: 0.3 }}
         >
           <div className={styles.DotMenuTop}>
-            <div className="DotMenuLogo">
-              <span>logo</span>
+            <div className={styles.DotMenuLogo}>
+              <img src="../assets/Logo/coachlete1.png" alt="" />
             </div>
             <motion.div
               className={styles.DotMenuClose}
@@ -118,8 +119,16 @@ export default function DotMenu({ setOpenDot, openDot }) {
           </div>
 
           <div className={styles.DotPhoneNo}>
-            <div className={styles.PhoneNumber}>+91 123456789</div>
-            <div className={styles.Email}>support@coachlete.com</div>
+            <div className={styles.PhoneNumber}>+91 8105397773</div>
+            <div className={styles.Email}>
+              {" "}
+              <Link
+                href="mailto:support@coachlete.co.in"
+                className={styles.SocialLinks}
+              >
+                support@coachlete.co.in
+              </Link>
+            </div>
           </div>
         </motion.div>
       )}

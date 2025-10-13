@@ -1,14 +1,15 @@
 import React from "react";
 import styles from "./Footer.module.css";
+import Link from "next/link";
 
 export default function Footer() {
   return (
     <div className={styles.Footermain}>
       <div className={styles.FooterWrapper}>
         <div className={styles.FooterTop}>
-          <div className="FooterTopLeft">
+          <div className={styles.FooterTopLeft}>
             <div className={styles.Logo}>
-              <span>Logo</span>
+              <img src="../assets/Logo/coachlete1.png" alt="" />
             </div>
           </div>
 
@@ -23,7 +24,15 @@ export default function Footer() {
                   No 116, 4th cross, Prakruthinagar, Bharathnagar - 560091
                 </span>
               </div>
-              <div className={styles.Officemail}>support@coachlete.co.in</div>
+              <div className={styles.Officemail}>
+                {" "}
+                <Link
+                  href="mailto:support@coachlete.co.in"
+                  className={styles.SocialLinks}
+                >
+                  support@coachlete.co.in
+                </Link>
+              </div>
               <div className={styles.OfficePhone}>+91 8105397773</div>
             </div>
             <div className={styles.Links}>
@@ -33,19 +42,22 @@ export default function Footer() {
 
               <div className={styles.LinksList}>
                 <ul>
-                  <a href="/">
+                  <Link href="/" className={styles.aLink}>
                     <li>Home</li>
-                  </a>
-                  <a href="About">
+                  </Link>
+                  <Link href="/About" className={styles.aLink}>
                     <li>About us</li>
-                  </a>
-                  <a href="Contactus">
+                  </Link>
+                  <Link href="/Contactus" className={styles.aLink}>
                     <li>Contact us</li>
-                  </a>
-                  <a href="TermsCondition">
+                  </Link>
+                  <Link href="/TermsCondition" className={styles.aLink}>
                     <li>Terms & Conditions</li>
-                  </a>
-                  <li>Privacy policy</li>
+                  </Link>
+
+                  <Link href="/PrivacyPolicy" className={styles.aLink}>
+                    <li>Privacy policy</li>
+                  </Link>
                 </ul>
               </div>
             </div>
@@ -57,23 +69,28 @@ export default function Footer() {
 
               <div className={styles.LinksList}>
                 <ul>
-                  <li>
-                    <div className={styles.insta}>
-                      <svg
-                        className={styles.svg}
-                        xmlns="http://www.w3.org/2000/svg"
-                        width="24"
-                        height="24"
-                        viewBox="0 0 24 24"
-                      >
-                        <path
-                          fill="currentColor"
-                          d="M7.8 2h8.4C19.4 2 22 4.6 22 7.8v8.4a5.8 5.8 0 0 1-5.8 5.8H7.8C4.6 22 2 19.4 2 16.2V7.8A5.8 5.8 0 0 1 7.8 2m-.2 2A3.6 3.6 0 0 0 4 7.6v8.8C4 18.39 5.61 20 7.6 20h8.8a3.6 3.6 0 0 0 3.6-3.6V7.6C20 5.61 18.39 4 16.4 4zm9.65 1.5a1.25 1.25 0 0 1 1.25 1.25A1.25 1.25 0 0 1 17.25 8A1.25 1.25 0 0 1 16 6.75a1.25 1.25 0 0 1 1.25-1.25M12 7a5 5 0 0 1 5 5a5 5 0 0 1-5 5a5 5 0 0 1-5-5a5 5 0 0 1 5-5m0 2a3 3 0 0 0-3 3a3 3 0 0 0 3 3a3 3 0 0 0 3-3a3 3 0 0 0-3-3"
-                        />
-                      </svg>
-                      Instagram
-                    </div>{" "}
-                  </li>
+                  <Link
+                    href="https://www.instagram.com/coachlete_app?igsh=anVrY2Z1bmMzeHlu"
+                    className={styles.SocialLinks}
+                  >
+                    <li>
+                      <div className={styles.insta}>
+                        <svg
+                          className={styles.svg}
+                          xmlns="http://www.w3.org/2000/svg"
+                          width="24"
+                          height="24"
+                          viewBox="0 0 24 24"
+                        >
+                          <path
+                            fill="currentColor"
+                            d="M7.8 2h8.4C19.4 2 22 4.6 22 7.8v8.4a5.8 5.8 0 0 1-5.8 5.8H7.8C4.6 22 2 19.4 2 16.2V7.8A5.8 5.8 0 0 1 7.8 2m-.2 2A3.6 3.6 0 0 0 4 7.6v8.8C4 18.39 5.61 20 7.6 20h8.8a3.6 3.6 0 0 0 3.6-3.6V7.6C20 5.61 18.39 4 16.4 4zm9.65 1.5a1.25 1.25 0 0 1 1.25 1.25A1.25 1.25 0 0 1 17.25 8A1.25 1.25 0 0 1 16 6.75a1.25 1.25 0 0 1 1.25-1.25M12 7a5 5 0 0 1 5 5a5 5 0 0 1-5 5a5 5 0 0 1-5-5a5 5 0 0 1 5-5m0 2a3 3 0 0 0-3 3a3 3 0 0 0 3 3a3 3 0 0 0 3-3a3 3 0 0 0-3-3"
+                          />
+                        </svg>
+                        Instagram
+                      </div>{" "}
+                    </li>
+                  </Link>
                   <li>
                     <div className={styles.fb}>
                       <svg
