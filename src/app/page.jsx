@@ -10,7 +10,7 @@ export default function Home() {
       <Homesection />
       <Info />
       <Blogs />
-      <Testimonials />
+      {/* <Testimonials /> */}
     </main>
   );
 }

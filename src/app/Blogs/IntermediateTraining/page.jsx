@@ -91,7 +91,7 @@ export default function IntermediateTraining() {
               </div>
 
               <div className={styles.contentsection}>
-                <h3>Tips for Beginners</h3>
+                <h3>Tips for Intermediate</h3>
                 <div className={styles.tipsgrid}>
                   <div className={styles.tipcard}>
                     <div className={styles.tipicon}>🎯</div>
