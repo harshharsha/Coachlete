@@ -79,7 +79,7 @@ function TermsConditions() {
               </nav>
             </div>
 
-            <div className={styles.helpCard}>
+            {/* <div className={styles.helpCard}>
               <div className={styles.helpIcon}>
                 <FileText size={32} />
               </div>
@@ -91,7 +91,7 @@ function TermsConditions() {
               <a href="/contact" className={styles.helpButton}>
                 Contact Legal Team
               </a>
-            </div>
+            </div> */}
           </aside>
 
           {/* Main Terms Content */}
@@ -329,12 +329,14 @@ function TermsConditions() {
               <div className={styles.contactBox}>
                 <div className={styles.contactItem}>
                   <strong>Email:</strong>{" "}
-                  <a href="mailto:legal@coachlete.in">legal@coachlete.in</a>
+                  <a href="mailto:support@coachlete.co.in">
+                    support@coachlete.co.in
+                  </a>
                 </div>
                 <div className={styles.contactItem}>
                   <strong>Address:</strong>
                   <span>
-                    Lunovia Innovation and Technology Private Limited
+                    No 116, 4th cross, Prakruthinagar, Bharathnagar - 560091
                     <br />
                     Bengaluru, Karnataka, India
                   </span>

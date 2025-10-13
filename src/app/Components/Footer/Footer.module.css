@@ -7,78 +7,92 @@
 .FooterWrapper {
   max-width: 1600px;
   width: 100%;
-  padding: 8vh 5vw;
+  padding: 6vh 5vw;
   margin: 0 auto;
-}
-
-.FooterTopRight {
-  display: flex;
-  gap: 5rem;
 }
 
 .FooterTop {
   display: flex;
   justify-content: space-between;
-  gap: 2rem;
-  flex-wrap: wrap; /* allow wrapping for smaller screens */
+  gap: 4rem;
+  flex-wrap: wrap;
 }
 
 .Logo {
   display: flex;
   justify-content: center;
-  width: 200px;
-  /* height: 100%; */
+  align-items: center;
+  width: 180px;
 }
 
 .Logo img {
-  height: 100%;
   width: 100%;
+  height: auto;
 }
 
+.FooterTopRight {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 4rem;
+}
+
+/* Text Styles */
 .Officehead,
 .LinkHead {
   font-size: 16px;
-  font-weight: bold;
+  font-weight: 700;
 }
 
 .OfficeAddress,
-.LinksList {
-  margin-top: 2vh;
+.LinksList,
+.Officemail,
+.OfficePhone {
   color: rgba(255, 255, 255, 0.5);
-}
-
-.SocialLinks {
-  text-decoration: none;
-  color: rgba(255, 255, 255, 0.5);
+  margin-top: 1vh;
 }
 
 .OfficeAddress {
   max-width: 400px;
+  line-height: 1.6;
   word-wrap: break-word;
-  overflow-wrap: break-word;
-}
-
-.OfficeAddress span {
-  word-break: break-word;
-}
-
-.Officemail,
-.OfficePhone {
-  margin-top: 2vh;
-  color: rgba(255, 255, 255, 0.5);
 }
 
 .LinksList ul {
   list-style: none;
   display: flex;
   flex-direction: column;
-  gap: 1.2vh;
+  gap: 1vh;
   padding: 0;
-  margin: 0;
+}
+
+.aLink {
+  color: rgba(255, 255, 255, 0.5);
+  text-decoration: none;
+  transition: color 0.2s ease;
+}
+
+.aLink:hover {
+  color: white;
+}
+
+.SocialLinks {
+  color: rgba(255, 255, 255, 0.5);
+  text-decoration: none;
+}
+
+.socialItem {
+  display: flex;
+  align-items: center;
+  gap: 1vh;
+  font-size: 15px;
+}
+
+.svg {
+  width: 20px;
+  height: 20px;
 }
 
 .hrWrapper {
-  width: 100%;
   margin: 4vh 0;
 }
 
@@ -86,63 +100,49 @@
   border-color: rgba(255, 255, 255, 0.2);
 }
 
-.insta,
-.fb,
-.youtube,
-.twitter {
-  display: flex;
-  align-items: center;
-  gap: 1vh;
-}
-
-.aLink {
-  text-decoration: none;
+.FooterBottom {
+  text-align: center;
   color: rgba(255, 255, 255, 0.5);
+  font-size: 14px;
+  margin-top: 2vh;
 }
 
-/* 🔹 Responsive Design */
+/* ✅ Responsive Adjustments */
 @media (max-width: 1024px) {
-  .FooterTop {
-    /* justify-content: flex-start; */
-    gap: 3rem;
-  }
-
   .FooterTopRight {
-    gap: 2rem;
+    gap: 3rem;
   }
 }
 
 @media (max-width: 768px) {
   .FooterTop {
-    flex-direction: column; /* stack vertically */
-    align-items: flex-start;
-    gap: 3rem;
-  }
-
-  .FooterTopLeft {
-    width: 100%;
-    justify-items: center;
-    align-content: center;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
   }
 
   .Logo {
+    width: 160px;
+  }
+
+  .FooterTopRight {
+    flex-direction: column;
+    gap: 2rem;
+  }
+
+  .OfficeAddress {
+    max-width: 300px;
+    margin: 0 auto;
+  }
+
+  .socialItem {
     justify-content: center;
-  }
-
-  .OfficeAddress {
-    max-width: 350px;
-  }
-}
-
-@media screen and (max-width: 767px) {
-  .OfficeAddress {
-    max-width: 200px;
   }
 }
 
 @media (max-width: 480px) {
   .FooterWrapper {
-    padding: 6vh 4vw;
+    padding: 5vh 3vw;
   }
 
   .Officehead,
@@ -153,27 +153,13 @@
   .OfficeAddress,
   .Officemail,
   .OfficePhone,
-  .LinksList {
-    font-size: 14px;
-  }
-
-  .insta,
-  .fb,
-  .youtube,
-  .twitter {
-    font-size: 14px;
-    gap: 0.8vh;
+  .LinksList,
+  .socialItem {
+    font-size: 13px;
   }
 
   .svg {
-    width: 20px;
-    height: 20px;
-  }
-
-  .FooterBottom {
-    text-align: center;
-    margin-top: 2rem;
-    font-size: 13px;
-    color: rgba(255, 255, 255, 0.5);
+    width: 18px;
+    height: 18px;
   }
 }

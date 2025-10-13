@@ -71,7 +71,7 @@ function PrivacyPolicy() {
               </nav>
             </div>
 
-            <div className={styles.helpCard}>
+            {/* <div className={styles.helpCard}>
               <div className={styles.helpIcon}>
                 <FileText size={32} />
               </div>
@@ -83,7 +83,7 @@ function PrivacyPolicy() {
               <a href="/contact" className={styles.helpButton}>
                 Contact Privacy Team
               </a>
-            </div>
+            </div> */}
           </aside>
 
           {/* Main Privacy Content */}
@@ -284,7 +284,7 @@ function PrivacyPolicy() {
                 <div className={styles.contactItem}>
                   <strong>Address:</strong>
                   <span>
-                    Lunovia Innovation and Technology Private Limited
+                    No 116, 4th cross, Prakruthinagar, Bharathnagar - 560091
                     <br />
                     Bengaluru, Karnataka, India
                   </span>

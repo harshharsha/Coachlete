@@ -70,7 +70,7 @@
 .termsHeader {
   background: black;
   color: white;
-  padding: 4rem 2rem;
+  padding: 6rem 2rem;
   text-align: center;
   position: relative;
   overflow: hidden;
@@ -707,7 +707,7 @@
   }
 
   .termsHeader {
-    padding: 5rem 1.5rem;
+    padding: 8rem 1.5rem 4rem 1.5rem;
   }
 
   .headerIcon {
