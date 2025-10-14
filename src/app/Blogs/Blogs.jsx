@@ -39,7 +39,7 @@ export default function Blogs() {
       id: 1,
       no: "01",
       head: "Youth Development",
-      img: "assets/OurProgram/Beginner.jpg",
+      img: "assets/OurProgram/beginner.jpg",
       url: "/Blogs/YouthDevelopment",
     },
     {

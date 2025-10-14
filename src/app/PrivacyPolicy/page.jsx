@@ -282,6 +282,9 @@ function PrivacyPolicy() {
                   </a>
                 </div>
                 <div className={styles.contactItem}>
+                  <strong>Phone:</strong> +91 8105397773
+                </div>
+                <div className={styles.contactItem}>
                   <strong>Address:</strong>
                   <span>
                     No 116, 4th cross, Prakruthinagar, Bharathnagar - 560091
