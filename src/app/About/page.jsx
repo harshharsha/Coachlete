@@ -46,8 +46,8 @@ function About() {
             </div>
             <div className={styles.imagecontent}>
               <img
-                src="https://images.pexels.com/photos/3764011/pexels-photo-3764011.jpeg?auto=compress&cs=tinysrgb&w=800"
-                alt="Coaching session"
+                src="/assets/Aboutus/about.jpg"
+                alt=""
                 className={styles.mainimage}
               />
               {/* <div className={styles.floatingcard}>
@@ -280,14 +280,27 @@ function About() {
                 <div className={styles.timelinedot}></div>
                 <div className={styles.timelinecontent}>
                   <h4>2024 - A Vision Registered</h4>
-                  <p>
-                    This was the year our idea transformed into a brand. We
-                    closely observed the global sporting scene and learned from
-                    India’s challenges during the 2024 Olympic preparations.
-                    Coachlete officially became a registered brand with a single
-                    mission: “To put more Indians into sports by giving them the
-                    power to choose their coach anytime anywhere for any sport”
-                  </p>
+                  {/* <p> */}
+                  <ul>
+                    <li>
+                      This was the year our idea transformed into a brand.
+                    </li>
+                    <li>
+                      {" "}
+                      We closely observed the global sporting scene and learned
+                      from India’s challenges during the 2024 Olympic
+                      preparations.
+                    </li>
+                    <li>
+                      {" "}
+                      Coachlete officially became a registered brand with a
+                      single mission: “To put more Indians into sports by giving
+                      them the power to choose their coach anytime anywhere for
+                      any sport”
+                    </li>
+                  </ul>
+
+                  {/* </p> */}
                 </div>
               </div>
 
@@ -295,18 +308,26 @@ function About() {
                 <div className={styles.timelinedot}></div>
                 <div className={styles.timelinecontent}>
                   <h4>2025 - The Launch</h4>
-                  <p>
-                    Our journey has just begun. We’re now focused on expanding
-                    our reach to every corner of India, partnering with
-                    academies, and supporting grassroots sports development. Our
-                    platform introduced smart features such as online booking,
-                    demo sessions, performance analytics, and real time progress
-                    tracking, making professional coaching accessible to all.
-                    Today, Coachlete is more than just an app it’s a movement
-                    bringing coaches and athletes together to build India’s
-                    sporting future. Coachlete Empowering India, one athlete at
-                    a time.
-                  </p>
+                  <ul>
+                    <li>
+                      Our journey has just begun. We’re now focused on expanding
+                      our reach to every corner of India, partnering with
+                      academies, and supporting grassroots sports development.
+                    </li>
+                    <li>
+                      Our platform introduced smart features such as online
+                      booking, demo sessions, performance analytics, and real
+                      time progress tracking, making professional coaching
+                      accessible to all.
+                    </li>
+                    <li>
+                      {" "}
+                      Today, Coachlete is more than just an app it’s a movement
+                      bringing coaches and athletes together to build India’s
+                      sporting future.
+                    </li>
+                    <li>Coachlete Empowering India, one athlete at a time.</li>
+                  </ul>
                 </div>
               </div>
             </div>

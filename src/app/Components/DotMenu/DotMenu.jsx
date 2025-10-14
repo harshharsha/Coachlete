@@ -42,38 +42,48 @@ export default function DotMenu({ setOpenDot, openDot }) {
 
           <div className={styles.DotSocialMediaLinks}>
             <ul>
-              <li>
-                <div className={styles.Facebook}>
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    width="2vw"
-                    viewBox="0 0 24 24"
-                  >
-                    <path
-                      fill="currentColor"
-                      d="M22 12c0-5.52-4.48-10-10-10S2 6.48 2 12c0 4.84 3.44 8.87 8 9.8V15H8v-3h2V9.5C10 7.57 11.57 6 13.5 6H16v3h-2c-.55 0-1 .45-1 1v2h3v3h-3v6.95c5.05-.5 9-4.76 9-9.95"
-                    />
-                  </svg>
-                  Facebook
-                </div>
-              </li>
-              <li>
-                <div className={styles.Instagram}>
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    width="2vw"
-                    viewBox="0 0 24 24"
-                  >
-                    <path
-                      fill="currentColor"
-                      fillRule="evenodd"
-                      d="M3 8a5 5 0 0 1 5-5h8a5 5 0 0 1 5 5v8a5 5 0 0 1-5 5H8a5 5 0 0 1-5-5zm5-3a3 3 0 0 0-3 3v8a3 3 0 0 0 3 3h8a3 3 0 0 0 3-3V8a3 3 0 0 0-3-3zm7.597 2.214a1 1 0 0 1 1-1h.01a1 1 0 1 1 0 2h-.01a1 1 0 0 1-1-1M12 9a3 3 0 1 0 0 6a3 3 0 0 0 0-6m-5 3a5 5 0 1 1 10 0a5 5 0 0 1-10 0"
-                      clipRule="evenodd"
-                    />
-                  </svg>
-                  Instagram
-                </div>
-              </li>
+              <Link
+                href="https://www.facebook.com/profile.php?id=61570320432392"
+                className={styles.SocialLinks1}
+              >
+                <li>
+                  <div className={styles.Facebook}>
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="2vw"
+                      viewBox="0 0 24 24"
+                    >
+                      <path
+                        fill="currentColor"
+                        d="M22 12c0-5.52-4.48-10-10-10S2 6.48 2 12c0 4.84 3.44 8.87 8 9.8V15H8v-3h2V9.5C10 7.57 11.57 6 13.5 6H16v3h-2c-.55 0-1 .45-1 1v2h3v3h-3v6.95c5.05-.5 9-4.76 9-9.95"
+                      />
+                    </svg>
+                    Facebook
+                  </div>
+                </li>
+              </Link>
+              <Link
+                href="https://www.instagram.com/coachlete_app?igsh=anVrY2Z1bmMzeHlu"
+                className={styles.SocialLinks1}
+              >
+                <li>
+                  <div className={styles.Instagram}>
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="2vw"
+                      viewBox="0 0 24 24"
+                    >
+                      <path
+                        fill="currentColor"
+                        fillRule="evenodd"
+                        d="M3 8a5 5 0 0 1 5-5h8a5 5 0 0 1 5 5v8a5 5 0 0 1-5 5H8a5 5 0 0 1-5-5zm5-3a3 3 0 0 0-3 3v8a3 3 0 0 0 3 3h8a3 3 0 0 0 3-3V8a3 3 0 0 0-3-3zm7.597 2.214a1 1 0 0 1 1-1h.01a1 1 0 1 1 0 2h-.01a1 1 0 0 1-1-1M12 9a3 3 0 1 0 0 6a3 3 0 0 0 0-6m-5 3a5 5 0 1 1 10 0a5 5 0 0 1-10 0"
+                        clipRule="evenodd"
+                      />
+                    </svg>
+                    Instagram
+                  </div>
+                </li>
+              </Link>
               <li>
                 <div className={styles.Youtube}>
                   <svg

@@ -24,10 +24,7 @@ export default function YouthDevelopment() {
             </h2>
 
             <div className={styles.featuredimage}>
-              <img
-                src="https://images.pexels.com/photos/358042/pexels-photo-358042.jpeg?auto=compress&cs=tinysrgb&w=1200"
-                alt="Volleyball in sports hall"
-              />
+              <img src="/assets/YouthDevelopment/youth1.jpg" alt="" />
               <div className={styles.imageoverlay}></div>
             </div>
 
@@ -36,8 +33,8 @@ export default function YouthDevelopment() {
                 <p className={styles.leadparagraph}>
                   When we talk about youth development, one thing stands out
                   clearly: sports is more than just a game. It is discipline,
-                  teamwork, resilience, and selfbelief all wrapped into one. For
-                  young people, these qualities are not just skills on the
+                  teamwork, resilience, and self belief all wrapped into one.
+                  For young people, these qualities are not just skills on the
                   field, but lessons for life.
                 </p>
                 <p>
@@ -90,8 +87,8 @@ export default function YouthDevelopment() {
               </div>
 
               <div className={styles.imagegallery}>
-                <img src="../assets/Home/volleyball.jpg" alt="" />
-                <img src="../assets/Home/volleyball.jpg" alt="" />
+                <img src="../assets/YouthDevelopment/KhoKho.jpg" alt="" />
+                <img src="../assets/YouthDevelopment/volley.jpg" alt="" />
               </div>
 
               <div className={styles.contentsection}>

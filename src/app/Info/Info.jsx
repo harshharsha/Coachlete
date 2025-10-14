@@ -46,7 +46,7 @@ export default function Info() {
               </svg>
             </div>
             <div className={styles.InfoCardHead}>
-              <span>Coach-Athlete Matching</span>
+              <span>Coach Athlete Matching</span>
             </div>
             <div className={styles.InfoCardDesc}>
               <span>
@@ -75,12 +75,12 @@ export default function Info() {
               </svg>
             </div>
             <div className={styles.InfoCardHead}>
-              <span>All-Sports, One Platform</span>
+              <span>All Sports, One Platform</span>
             </div>
             <div className={styles.InfoCardDesc}>
               <span>
                 Connect with coaches across 20+ sports from mainstream to niche
-                making Coachlete India’s first truly all-sports coaching hub.
+                making Coachlete India’s first truly all sports coaching hub.
               </span>
             </div>
           </div>

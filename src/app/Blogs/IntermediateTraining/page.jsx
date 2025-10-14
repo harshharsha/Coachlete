@@ -24,7 +24,7 @@ export default function IntermediateTraining() {
 
             <div className={styles.featuredimage}>
               <img
-                src="https://images.pexels.com/photos/358042/pexels-photo-358042.jpeg?auto=compress&cs=tinysrgb&w=1200"
+                src="/assets/Intermediate/intermediate1.jpg"
                 alt="Volleyball in sports hall"
               />
               <div className={styles.imageoverlay}></div>
@@ -86,8 +86,8 @@ export default function IntermediateTraining() {
               </div> */}
 
               <div className={styles.imagegallery}>
-                <img src="../assets/Home/volleyball.jpg" alt="" />
-                <img src="../assets/Home/volleyball.jpg" alt="" />
+                <img src="../assets/Intermediate/intermediate2.jpg" alt="" />
+                <img src="../assets/Intermediate/intermediate3.jpg" alt="" />
               </div>
 
               <div className={styles.contentsection}>

@@ -8,17 +8,17 @@ export default function Homesection() {
         {/* <NavBar /> */}
         <div className={styles.HomeVideo}>
           <div className={styles.HomeVideoWrapper}>
-            <img src="assets/Home/volleyball.jpg" alt="" />
+            <img src="assets/Home/homesection.jpg" alt="" />
           </div>
 
           <div className={styles.HomeWrapper}>
             <div className={styles.HomeText}>
               <div className={styles.HomeTextWrapper}>
-                <span>Turning</span>
+                <span>From training</span>
                 <br />
-                <span>practice into</span>
-                <br />
-                <span>performance</span>
+                <span>to triumph</span>
+                {/* <br /> */}
+                {/* <span>performance</span> */}
               </div>
             </div>
           </div>
