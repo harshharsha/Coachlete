@@ -334,7 +334,8 @@ function TermsConditions() {
                   </a>
                 </div>
                 <div className={styles.contactItem}>
-                  <strong>Phone:</strong> +91 8105397773
+                  <strong>Phone:</strong>
+                  <span>+91 8105397773</span>
                 </div>
                 <div className={styles.contactItem}>
                   <strong>Address:</strong>
