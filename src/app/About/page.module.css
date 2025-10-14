@@ -71,7 +71,7 @@
   /* background: linear-gradient(135deg, #1e293b 0%, #334155 100%); */
   background-color: black;
   color: white;
-  padding: 5rem 2rem;
+  padding: 8rem 2rem;
   text-align: center;
   position: relative;
   overflow: hidden;
@@ -84,16 +84,7 @@
   left: 0;
   right: 0;
   bottom: 0;
-  background: radial-gradient(
-      circle at 20% 50%,
-      rgba(37, 99, 235, 0.15) 0%,
-      transparent 50%
-    ),
-    radial-gradient(
-      circle at 80% 50%,
-      rgba(59, 130, 246, 0.15) 0%,
-      transparent 50%
-    );
+  background-color: black;
   pointer-events: none;
 }
 
@@ -517,6 +508,14 @@
   border-radius: 12px;
   border: 2px solid #cecfd1;
   transition: all 0.3s ease;
+}
+
+.timelinecontent ul {
+  padding-left: 2vh;
+  font-size: 1rem;
+  line-height: 1.7;
+  color: #64748b;
+  margin: 0;
 }
 
 .timelineitem:hover .timelinecontent {

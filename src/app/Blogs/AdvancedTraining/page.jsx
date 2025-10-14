@@ -23,10 +23,7 @@ export default function AdvancedTraining() {
             </h2>
 
             <div className={styles.featuredimage}>
-              <img
-                src="https://images.pexels.com/photos/358042/pexels-photo-358042.jpeg?auto=compress&cs=tinysrgb&w=1200"
-                alt="Volleyball in sports hall"
-              />
+              <img src="/assets/Advance/advance2.jpg" alt="" />
               <div className={styles.imageoverlay}></div>
             </div>
 
@@ -99,8 +96,8 @@ export default function AdvancedTraining() {
               </div> */}
 
               <div className={styles.imagegallery}>
-                <img src="../assets/Home/volleyball.jpg" alt="" />
-                <img src="../assets/Home/volleyball.jpg" alt="" />
+                <img src="/assets/Advance/advance1.jpg" alt="" />
+                <img src="/assets/Advance/advance3.jpg" alt="" />
               </div>
 
               <div className={styles.contentsection}>

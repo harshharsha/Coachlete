@@ -53,6 +53,11 @@
   gap: 2vh;
 }
 
+.SocialLinks1 {
+  text-decoration: none;
+  color: white;
+}
+
 .SocialLinks {
   text-decoration: none;
   color: rgba(255, 255, 255, 0.5);

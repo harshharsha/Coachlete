@@ -80,6 +80,10 @@
   text-decoration: none;
 }
 
+.SocialLinks:hover {
+  color: white;
+}
+
 .socialItem {
   display: flex;
   align-items: center;
