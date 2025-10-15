@@ -175,10 +175,12 @@ function TermsConditions() {
               <p>
                 To access certain features, you must create an account using
                 your name, mobile number and/or email address, and a password.
-                You represent that you are at least 18 years old and capable of
+                By registering, you confirm that you are legally capable of
                 entering into a binding contract. You are responsible for
                 safeguarding your password and for all activity under your
                 account. Notify us immediately of any unauthorized use.
+                Coachlete does not offer social logins; authentication is
+                limited to the methods provided in the app.
               </p>
               <p>
                 Coachlete does not offer social logins; authentication is
